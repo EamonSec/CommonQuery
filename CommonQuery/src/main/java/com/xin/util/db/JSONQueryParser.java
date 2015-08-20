@@ -54,7 +54,6 @@ public class JSONQueryParser {
 			/* JSONDeserializer<IRule> der = new JSONDeserializer<IRule>();
 			 Map<String,Object> map = (Map<String, Object>) der.deserialize(json);*/
 			 Map<String,Object> map = JsonToMap.toMap(json);
-			 //System.out.println(map);
 			 return parse(map);
 		}
 		private static IRule parse(Map<String,Object> map){
