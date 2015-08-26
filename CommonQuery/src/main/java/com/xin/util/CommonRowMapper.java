@@ -1,4 +1,4 @@
-package com.xin.uitl;
+package com.xin.util;
 
 import java.lang.reflect.Method;
 import java.sql.ResultSet;
